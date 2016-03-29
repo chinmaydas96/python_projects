@@ -3,8 +3,8 @@ import socket
 
 def main():
 
-	host = '192.168.43.232'
-	port = 8004
+	host = '192.168.1.121'
+	port = 8000
 
 	s = socket.socket()
 	s.bind((host, port))
