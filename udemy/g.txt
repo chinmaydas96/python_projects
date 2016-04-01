@@ -1,0 +1,143 @@
+.Complete Python Bootcamp
+.Learning Python for Data Analysis and Visualization 
+.Python for Beginners
+.Python Tutorial: Python Network Programming - Build 7 Apps
+.Data Science and Machine Learning with Python - Hands On!
+.Python - Learn Python From Scratch In No Time Flat!
+.The Ultimate Python Programming Tutorial 
+.Coding for Entrepreneurs: Learn Python, Django, and More.
+.Automate the Boring Stuff with Python Programming
+.Python Programming: Code Python Like a Boss & Become a Dev!
+.Become a Professional Python Programmer
+.Python 101
+.Data Analysis in Python with Pandas
+.A Gentle Introduction to Python Programming
+.Python Programming for Beginners
+.Python Course - Learn Python Programming, MongoDB, Django...
+.From 0 to 1: Machine Learning, NLP & Python-Cut to the Chase
+.Taming Big Data with MapReduce and Hadoop - Hands On!
+.Complete Python Web Course: Build 8 Python Web Apps
+.Learn Python: Python for Beginners
+.Data Science: Deep Learning in Python
+.Python, The Next Level (Intermediate)
+.Python training, from scratch to penetration tester
+.Python 3, be a paid scripting professional
+.Python in 3 hours: Python Programming Tutorial For Beginners
+.Web Programming with Python
+.Data Science: Logistic Regression in Python
+.Python for Data Structures, Algorithms, and Interviews!
+.Learn Python and Django: Payment Processing
+.Python For Offensive PenTest: A Complete Practical Course
+.Python Step by Step: Build a Data Analysis Program
+.Data Analysis with Python and Pandas
+.Master in Selenium Automation with simple Python Language
+.Introduction to Python for Beginners
+.Python for Beginners: Learn Python Programming from Scratch
+.Game Development Fundamentals with Python
+.Learn Python: The Complete Python Programming Course
+.Python Tutorial: Python 100% Hands-On - Learn by Coding
+.Backend  / API Testing  with Python
+.Python basics with Project
+.Data Science: Linear Regression in Python
+.Learn Python Programming From Scratch
+.Data Visualization with Python and Matplotlib
+.Learn Python Programming Lanaguage
+.Applied Data Science with Python
+.From 0 to 1: Learn Python Programming  - Easy as Pie
+.Teach Your Kids to Code: Learn to Program Python at Any Age!
+.Professional Python Web Development Using Flask
+.A Gentle Introduction to Python Programming - Lite
+.Learn Python in 1 Hour
+.Python Programming - Complete Beginner Course
+.Learn Python Face Detection
+.Python Programming for beginners (2016)
+.Projects in Django and Python
+.Ultimate Python Developer Course - Build Real Applications
+.C, C++, Python and Ruby Programming
+.Mastering Python - Networking and Security
+.Unleash Machine Learning: Build Artificial Neuron in Python
+.Selenium WebDriver and Python: WebTest Automation Course
+.Python Programming: Build Matchmaking Website + Geolocator
+.Deep Learning with Python 
+.Python GUI and Gaming 101 with Tkinter
+.If You Can Cook You Can Code - Learn Python
+.Introduction to Raspberry Pi
+.Ethical Hacking,Python and Linux Combo course
+.Step by Step Python Programming Tutorial For Beginners
+.Easy Natural Language Processing in Python
+.Become a Professional Programmer
+.Python Web Programming
+.Python For Beginners - Learn Programming from scratch
+.Apache Spark with Python - Learn by Doing
+.Learn Python, it's CAKE (Beginners)
+.Learn Python From Basic to Advance.
+.Learn Python from scratch
+.Django Tutorial: Build Your First App Fast & Free! 
+.Learn Python Django From Scratch
+.Become White Hat Hacker and Learn Python
+.Mastering Odoo 9 Development - Technical Fundamentals
+.Core: A Web App Reference Guide for Django, Python, and More
+.Introduction To Python Programming
+.Python for Beginners: Solve 50 Exercises Live
+.Learn Programming with Python
+.Selenium WebDriver with Python - Basics to Intermediate
+.Algorithms and Data Structures in Python
+.Selenium WebDriver with Python - Basics to Intermediate
+.Introduction to Machine Learning & Face Detection in Python
+.Python Beyond the Basics - Object-Oriented Programming
+.Beginning Python: Learn-to-Code (K-12 Computer Science)
+.python programming quick look
+.Python Tutorial for Absolute Beginners 
+.Python scripting for Software Testers
+.Create Simple GUI Applications with Python and Qt
+.A Rookie's Guide to Python
+.Python for Rookies
+.Learn Python Through Exercises
+.Introduction to Computer Science with Python Programming
+.Python GUI
+.Rock Paper Scissors - Python Tutorial
+.Learn Graphs and Social Network Analytics Using Python
+.Tango With Django: Learn the Fundamentals of Django
+.Learn Python 2 and 3 Side by Side
+.Python from Beginner to Expert: Starter Free
+.Programming Hadoop with Python
+.Fun and creative web engineering with Python and Web2py
+.Python Programming - Build a Reconnaissance Scanner
+.Web Scraping with Python, Ruby & import. io for fun & profit
+.Python 3 Database Programming with MySQL
+.Learn to code in Python and learn Adobe Photoshop today!
+.Python Crash Course: Become a successful programmer today
+.Python 3 for Beginners
+.Python:  Learn Python Today And Become A True  Code Warrior
+.Python & Ruby programming Complete step-by-step Tutorial
+.Mastering Python
+.Python Tutorial - Learn Python Programming with Examples
+.Building Real World Projects in Python
+.Python for Trading & Investing
+.Python Programming with POSTGRESQL
+.Try Django - Learn the #1 Python Framework for Web Apps
+.Algorithmic Problems & Neural Networks in Python
+.Learn Python 3 from scratch to become a developer in demand
+.Python Game Development - Create a Flappy Bird Clone
+.Big Data Analytics with Apache Spark and Python
+.Pythonic Python Part I: The Basics
+.Python Programming For Network Engineers 
+.Byte-Sized-Chunks: Twitter Sentiment Analysis (in Python)
+.Web API Development with Flask
+.Learn to create Computer games with python and pygame
+.Python - Quick fire basics! For beginners
+.Python for beginners: Learn in an hour
+.programming in python
+.Bite-Sized Data Science with Python and Pandas: Introduction
+.Python Programming - A Media Approach 
+.Learn How Python Works with NoSql Database MongoDB: PyMongo
+.Develop Android Apps using Python: Kivy
+.Learn Python by Creating 6 Fun and Useful Apps and Games
+.Introduction To Python Programming Language for beginners
+.Design Patterns Through Python
+.Python Desktop Application Development with PyQt
+.Building Great Web Back-ends with Django
+.Automate your trading strategies in live markets
+.Raspberry Pi Step By Step: You Complete Guide
+.Python Best Practices
+.Game Development
