@@ -1,5 +1,3 @@
-""" simple python script for sending sms to specified mobile number given   """
-
 from twilio.rest import TwilioRestClient
 accountSID = 'ACa65f710b22bf1951e02fc8bfba5f2cdd'
 authToken = '8a1f73f2d53efa635ed91edbbc33edc1'
