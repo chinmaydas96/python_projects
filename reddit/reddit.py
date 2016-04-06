@@ -24,3 +24,4 @@ for i in b:
 print hello
 for i in hello:
 	print i.no,i.name
+	
