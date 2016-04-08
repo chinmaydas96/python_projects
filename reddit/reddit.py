@@ -11,18 +11,23 @@ a = soup.findAll("a",{"class":"title may-blank "})
 b = [i.text for i in a]
 
 class reddit(object):
-    def __init__(self,name,url):
+    def __init__(self,name,url,author,comments,time):
 	    self.name=name
 	    self.url=url
-    
+    	self.author=author
+    	self.comments=comments
+    	self.time=time 
     def __repr__(self):
         return self.name	 + "\n"  
+
 
 x=[]
 for i in a:
 	name = i.text
 	url =  i["href"]
-	r = reddit(name,url)
+	r = reddit(name,url,author,comments,time)
 	x.append(r)
+
+
 
 print x
