@@ -13,15 +13,16 @@ soup=BeautifulSoup(a)
 s=soup.findAll("div",{"onclick":"click_thing(this)","data-type":"link"})
 
 class reddit(object):
-    def __init__(self,title,url,author,no_comments,time):
+    def __init__(self,title,url,author,no_comments,time,upvote):
 		self.title=title
 		self.url=url
 		self.author=author
 		self.no_comments=no_comments
 		self.time=time
+		self.upvote = upvote
 
     def __repr__(self):
-        return str(self.author)
+        return str(self.upvote)
 
 
 x=[]
@@ -39,9 +40,9 @@ for i in s:
 	# time = i.find("time")["datetime"]
 	time = str(i['data-timestamp'])[:-3]
 	time = datetime.datetime.fromtimestamp(int(time)).strftime('%Y-%m-%d %H:%M:%S')
-
-	r = reddit(title,url,author,no_comments,time)
+	upvote = i.find("div",{"class":"score unvoted"}).text
+	r = reddit(title,url,author,no_comments,time,upvote)
 	x.append(r)	
-
-from pprint import pprint
-print pprint(x)
+	print upvote
+# from pprint import pprint
+# print pprint(x)
