@@ -1,33 +1,47 @@
 import mechanize
+import re
+import datetime
 from bs4 import BeautifulSoup
+
 br = mechanize.Browser()
 br.addheaders = [('User-agent', 'Firefox')]
 br.set_handle_robots(False)   # ignore robots
-url=" https://www.reddit.com/ "
-respose=br.open(url)
+URL=" https://www.reddit.com"
+respose=br.open(URL)
 a=respose.read()
 soup=BeautifulSoup(a)
-a = soup.findAll("a",{"class":"title may-blank "})
-b = [i.text for i in a]
+s=soup.findAll("div",{"onclick":"click_thing(this)","data-type":"link"})
 
 class reddit(object):
-    def __init__(self,name,url,author,comments,time):
-	    self.name=name
-	    self.url=url
-    	self.author=author
-    	self.comments=comments
-    	self.time=time 
+    def __init__(self,title,url,author,no_comments,time):
+		self.title=title
+		self.url=url
+		self.author=author
+		self.no_comments=no_comments
+		self.time=time
+
     def __repr__(self):
-        return self.name	 + "\n"  
+        return str(self.author)
 
 
 x=[]
-for i in a:
-	name = i.text
-	url =  i["href"]
-	r = reddit(name,url,author,comments,time)
-	x.append(r)
+for i in s:
+	title = i.find("a",{"class":"title may-blank "}).text
+	url =  i.find("a",{"class":"title may-blank "})["href"]
+	if url.startswith("/r/"):
+		url = URL + url
+	author = i.find("p",{"class":"tagline"}).find("a").text
+	no_comments = i.find("a",{"data-event-action":"comments"}).text
+	try:	
+		no_comments = int( no_comments.split(" ")[0])
+	except:
+		no_comments = 0
+	# time = i.find("time")["datetime"]
+	time = str(i['data-timestamp'])[:-3]
+	time = datetime.datetime.fromtimestamp(int(time)).strftime('%Y-%m-%d %H:%M:%S')
 
+	r = reddit(title,url,author,no_comments,time)
+	x.append(r)	
 
-
-print x
+from pprint import pprint
+print pprint(x)
