@@ -29,7 +29,7 @@ x=[]
 for i in s:
 	title = i.find("a",{"class":"title may-blank "}).text
 	url =  i.find("a",{"class":"title may-blank "})["href"]
-	if url.startswith("/r/"):
+	if urls.tartswith("/r/"):
 		url = URL + url
 	author = i.find("p",{"class":"tagline"}).find("a").text
 	no_comments = i.find("a",{"data-event-action":"comments"}).text
@@ -42,7 +42,7 @@ for i in s:
 	time = datetime.datetime.fromtimestamp(int(time)).strftime('%Y-%m-%d %H:%M:%S')
 	upvote = i.find("div",{"class":"score unvoted"}).text
 	r = reddit(title,url,author,no_comments,time,upvote)
-	x.append(r)	
+	x.append(r)		
 	print upvote
 # from pprint import pprint
 # print pprint(x)
