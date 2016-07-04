@@ -1,9 +1,12 @@
-import	math
+import math
+
+
 class shape(object):
 	def Area(self):
 		pass
 	def perimeter(self):
 		pass	
+
 
 class square(shape):
 	def __init__(self,side_length):
@@ -15,7 +18,7 @@ class square(shape):
 
 class rectangle(shape):
 	def __init__(self,length,width):
-		self.length=length
+		self.length=length`	
 		self.width=width
 	def Area(self):
 		return self.length*self.width
