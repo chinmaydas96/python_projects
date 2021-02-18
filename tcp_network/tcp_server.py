@@ -1,26 +1,25 @@
 import socket
 
-
 def main():
 
-	host = '192.168.1.121'
-	port = 8000
+	host = '127.0.0.1'
+	port = 8004
 
 	s = socket.socket()
 	s.bind((host, port))
 
 	s.listen(1)
 	c, addr = s.accept()
-	print "Window : " + str(addr)
+	print("Window : " + str(addr))
 	while True:
 		data = c.recv(1024)
 		if not data:
 			break
-		print "Window: " + str(data)
+		print("Server : " + data.decode("utf-8"))
 		#data = str(data).upper()
-		data = raw_input("-> ")
-		c.send(data)
+		data = input("-> ")
+		c.send(bytes(data, 'utf-8'))
 	c.close()
 	
 if __name__ == '__main__':
-		 	main()		 
+	main()		 
