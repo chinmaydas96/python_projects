@@ -1,6 +1,3 @@
-# small python_projects
 
-## And different types of API in python.
-
-
+can we connect on WhatsApp 
 +919778428629
